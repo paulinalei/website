@@ -1,0 +1,19 @@
+html {
+  height: 100%;
+}
+.icons ul li {
+  display: inline;
+  padding: 5px;
+}
+
+.nav ul li {
+  display: inline;
+}
+
+.home {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-top: -50px;
+  margin-left: -50px;
+}
