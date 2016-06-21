@@ -8,8 +8,26 @@ html {
   padding: 5px;
 }
 
-.nav ul li {
+.navigation {
+  position: absolute;
+  top: 20px;
+  right: 10px;
+}
+
+.navigation ul li {
   display: inline;
+  padding: 5px;
+}
+
+.navigation a {
+  font-family: Courier;
+  text-decoration: none;
+  text-transform: lowercase;
+  color: black;
+}
+
+.navigation a:hover{
+  color: gray;
 }
 
 .home {
@@ -17,7 +35,7 @@ html {
   top: 50%;
   left: 50%;
   margin-top: -50px;
-  margin-left: -150px;
+  margin-left: -170px;
   padding: 0 100px;
 }
 
@@ -28,7 +46,7 @@ html {
 }
 
 .home ul li {
-  margin-left: 15px;
+  margin-left: 12px;
 }
 
 .fa-icon {

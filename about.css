@@ -1,0 +1,21 @@
+.navigation {
+  position: absolute;
+  top: 20px;
+  right: 10px;
+}
+
+.navigation ul li {
+  display: inline;
+  padding: 5px;
+}
+
+.navigation a {
+  font-family: Courier;
+  text-decoration: none;
+  text-transform: lowercase;
+  color: black;
+}
+
+.navigation a:hover{
+  color: gray;
+}
