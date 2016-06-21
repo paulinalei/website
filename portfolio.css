@@ -1,7 +1,11 @@
 .navigation {
-  position: absolute;
-  top: 20px;
-  right: 10px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  border-bottom: 1px solid black;
+  letter-spacing: 1px;
 }
 
 .navigation ul li {
@@ -18,4 +22,8 @@
 
 .navigation a:hover{
   color: gray;
+}
+
+.projects {
+  margin-top: 70px;
 }

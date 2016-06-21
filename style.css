@@ -2,16 +2,14 @@ html {
   height: 100%;
   width: 100%;
 }
-
-.icons ul li {
-  display: inline;
-  padding: 5px;
-}
-
 .navigation {
-  position: absolute;
-  top: 20px;
-  right: 10px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  border-bottom: 1px solid black;
+  letter-spacing: 1px;
 }
 
 .navigation ul li {
@@ -45,10 +43,24 @@ html {
   text-transform: lowercase;
 }
 
+.home p {
+  font-family: Courier;
+  text-align: center;
+}
+
 .home ul li {
   margin-left: 12px;
 }
 
 .fa-icon {
   color: black;
+}
+
+.fa-icon:hover {
+  color: grey;
+}
+
+.icons ul li {
+  display: inline;
+  padding: 5px;
 }
