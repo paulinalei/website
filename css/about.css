@@ -1,0 +1,48 @@
+.navigation {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  letter-spacing: 1px;
+}
+
+.navigation ul li {
+  display: inline;
+  padding: 5px;
+}
+
+.navigation a {
+  font-family: 'Scope One', serif;
+  text-decoration: none;
+  text-transform: lowercase;
+  color: black;
+}
+
+.navigation a:hover{
+  color: gray;
+}
+
+.description {
+  margin-top: 70px;
+  margin-left: 35px;
+}
+.description h1 {
+  font-family: 'Scope One', serif;
+  letter-spacing: 2px;
+}
+.description p {
+  font-family: 'Source Sans Pro', sans-serif;
+}
+.resume {
+  margin-left: 35px;
+}
+.resume a {
+  font-family: 'Scope One', serif;
+  text-decoration: none;
+  color: black;
+}
+
+.resume a:hover {
+  color: gray;
+}

@@ -1,0 +1,48 @@
+.navigation {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+}
+
+.navigation ul li {
+  display: inline;
+  padding: 5px;
+}
+
+.navigation a {
+  font-family: 'Scope One', serif;
+  text-decoration: none;
+  text-transform: lowercase;
+  color: black;
+  letter-spacing: 1px;
+}
+
+.navigation a:hover{
+  color: gray;
+}
+
+.projects {
+  margin-top: 70px;
+  margin-left: 35px;
+}
+
+.projects h3 {
+  font-family: 'Scope One', serif;
+  letter-spacing: 1px;
+}
+
+.projects a {
+  font-family: 'Scope One', serif;
+  text-decoration: none;
+  text-transform: lowercase;
+  color: black;
+}
+
+.projects a:hover {
+  color: gray;
+}
+.projects p {
+  font-family: 'Source Sans Pro', sans-serif;
+}

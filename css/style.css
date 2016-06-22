@@ -8,8 +8,6 @@ html {
   left: 0;
   right: 0;
   width: 100%;
-  border-bottom: 1px solid black;
-  letter-spacing: 1px;
 }
 
 .navigation ul li {
@@ -18,10 +16,11 @@ html {
 }
 
 .navigation a {
-  font-family: Courier;
+  font-family: 'Scope One', serif;
   text-decoration: none;
   text-transform: lowercase;
   color: black;
+  letter-spacing: 1px;
 }
 
 .navigation a:hover{
@@ -39,17 +38,15 @@ html {
 
 .home h1 {
   text-align: center;
-  font-family: Courier;
+  font-family: 'Scope One', serif;
   text-transform: lowercase;
+  letter-spacing: 1px;
 }
 
 .home p {
-  font-family: Courier;
+  font-family: 'Source Sans Pro', sans-serif;
   text-align: center;
-}
-
-.home ul li {
-  margin-left: 12px;
+  margin-left: -5px;
 }
 
 .fa-icon {
