@@ -10,6 +10,51 @@
 .description p {
   font-family: 'Source Sans Pro', sans-serif;
 }
+
+.tooltip-major {
+  position: relative;
+  display: inline-block;
+  border-bottom: 1px dotted black;
+}
+
+.tooltip-major .tooltip-major-description {
+  visibility: hidden;
+  width: 300px;
+  background-color: #555;
+  color: #fff;
+  text-align: center;
+  padding: 5px;
+  border-radius: 6px;
+
+  /*positioning tooltip text*/
+  position: absolute;
+  z-index: 1;
+  top: -15px;
+  left: 105%;
+  opacity: 0;
+  transition: opacity 1s;
+
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 16px;
+}
+
+/*forming the tooltip arrow*/
+.tooltip-major .tooltip-major-description::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  right: 100%;
+  margin-top: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: transparent #555 transparent transparent;
+}
+
+.tooltip-major:hover .tooltip-major-description {
+  visibility: visible;
+  opacity: 1;
+}
+
 .resume {
   margin-left: 35px;
 }
