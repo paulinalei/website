@@ -48,9 +48,6 @@
   opacity: 1;
 }
 
-.resume {
-  margin-left: 35px;
-}
 .resume a {
   font-family: 'Scope One', serif;
   text-decoration: none;
@@ -59,4 +56,5 @@
 
 .resume a:hover {
   color: gray;
+  text-decoration: none;
 }
