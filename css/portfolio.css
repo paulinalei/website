@@ -1,3 +1,6 @@
+.project-navigation {
+  position: fixed;
+}
 .project-navigation ul {
   padding: 0;
 }
@@ -27,6 +30,7 @@
   font-family: 'Scope One', serif;
   letter-spacing: 1px;
   text-transform: lowercase;
+  margin-top: 0px;
 }
 
 .projects a {
