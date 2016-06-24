@@ -29,9 +29,6 @@
 .projects a:hover {
   color: gray;
 }
-.projects p {
-  font-family: 'Source Sans Pro', sans-serif;
-}
 
 .projects img {
   width: 500px;

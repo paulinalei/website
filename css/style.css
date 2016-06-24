@@ -8,6 +8,7 @@ html {
   right: 0;
   width: 100%;
   background-color: white;
+  margin-top: 20px;
 }
 
 .navigation ul li {
@@ -26,6 +27,7 @@ html {
 
 .navigation a:hover{
   color: gray;
+  text-decoration: none;
 }
 
 .home {
@@ -65,5 +67,10 @@ html {
 
 .content {
   margin-top: 70px;
-  margin-left: 38px;
+  margin-left: 45px;
+}
+
+.content p {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 15px;
 }
