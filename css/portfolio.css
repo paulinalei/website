@@ -1,6 +1,16 @@
-.projects {
-  margin-top: 70px;
-  margin-left: 35px;
+.project-navigation ul {
+  padding: 0;
+}
+
+.project-navigation ul li {
+  list-style-type: none;
+  display: block;
+}
+
+.project-navigation a {
+  font-family: 'Scope One', serif;
+  color: black;
+  text-decoration: none;
 }
 
 .projects h3 {

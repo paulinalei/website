@@ -5,9 +5,9 @@ html {
 .navigation {
   position: fixed;
   top: 0;
-  left: 0;
   right: 0;
   width: 100%;
+  background-color: white;
 }
 
 .navigation ul li {
@@ -17,6 +17,7 @@ html {
 
 .navigation a {
   font-family: 'Scope One', serif;
+  font-size: 20px;
   text-decoration: none;
   text-transform: lowercase;
   color: black;
@@ -60,4 +61,9 @@ html {
 .icons ul li {
   display: inline;
   padding: 5px;
+}
+
+.content {
+  margin-top: 70px;
+  margin-left: 38px;
 }
