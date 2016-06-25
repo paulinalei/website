@@ -1,5 +1,6 @@
 .project-navigation {
   position: fixed;
+  margin-left: 62px;
 }
 .project-navigation ul {
   padding: 0;
@@ -31,17 +32,6 @@
   letter-spacing: 1px;
   text-transform: lowercase;
   margin-top: 0px;
-}
-
-.projects a {
-  font-family: 'Scope One', serif;
-  text-decoration: none;
-  text-transform: lowercase;
-  color: black;
-}
-
-.projects a:hover {
-  color: gray;
 }
 
 .projects img {

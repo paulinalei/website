@@ -68,7 +68,18 @@ html {
 
 .content {
   margin-top: 70px;
-  margin-left: 62px;
+}
+
+.content a {
+  font-family: 'Scope One', serif;
+  text-decoration: none;
+  text-transform: lowercase;
+  color: black;
+}
+
+.content a:hover {
+  color: gray;
+  text-decoration: none;
 }
 
 .content p {

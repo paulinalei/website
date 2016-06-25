@@ -1,3 +1,6 @@
+.description {
+  margin-left: 45px;
+}
 .description h1 {
   font-family: 'Scope One', serif;
   letter-spacing: 2px;
@@ -46,15 +49,4 @@
 .tooltip-major:hover .tooltip-major-description {
   visibility: visible;
   opacity: 1;
-}
-
-.resume a {
-  font-family: 'Scope One', serif;
-  text-decoration: none;
-  color: black;
-}
-
-.resume a:hover {
-  color: gray;
-  text-decoration: none;
 }
