@@ -7,8 +7,8 @@ html {
   top: 0;
   right: 0;
   width: 100%;
-  margin-top: 20px;
-  background-color: green;
+  padding-top: 20px;
+  background-color: white;
 }
 
 .navigation ul li {
@@ -67,7 +67,7 @@ html {
 
 .content {
   margin-top: 70px;
-  margin-left: 45px;
+  margin-left: 62px;
 }
 
 .content p {

@@ -48,3 +48,8 @@
   width: 500px;
   height: auto;
 }
+
+.content {
+  position: absolute;
+  z-index: -1;
+}
