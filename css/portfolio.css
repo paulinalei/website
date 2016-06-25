@@ -42,3 +42,7 @@
 .content {
   position: absolute;
 }
+
+#code {
+  padding-top: 70px; /*this is a temporary solution*/
+}
