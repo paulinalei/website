@@ -27,6 +27,11 @@
   text-decoration: none;
 }
 
+.projects {
+  position: absolute;
+  margin-left: 70px;
+}
+
 .projects h3 {
   font-family: 'Scope One', serif;
   letter-spacing: 1px;
@@ -37,12 +42,4 @@
 .projects img {
   width: 500px;
   height: auto;
-}
-
-.content {
-  position: absolute;
-}
-
-#code {
-  padding-top: 70px; /*this is a temporary solution*/
 }
