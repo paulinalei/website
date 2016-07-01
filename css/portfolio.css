@@ -47,4 +47,5 @@
 .projects h2 {
   font-family: 'Scope One', serif;
   text-transform: lowercase;
+  font-weight: bold;
 }
