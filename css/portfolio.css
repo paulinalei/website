@@ -43,3 +43,8 @@
   width: 500px;
   height: auto;
 }
+
+.projects h2 {
+  font-family: 'Scope One', serif;
+  text-transform: lowercase;
+}
