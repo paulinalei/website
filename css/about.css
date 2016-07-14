@@ -59,9 +59,11 @@
   background: #FAFAFA;
   position: relative;
 }
-
-
-
+.carousel-cell {
+  text-align: center;
+  width: 66%;
+  height: 30%;
+}
 .static-banner {
   position: absolute;
   background: hsla(0, 0%, 0%, 0.3);
