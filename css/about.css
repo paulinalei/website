@@ -54,7 +54,6 @@
 
 * { box-sizing: border-box; }
 
-
 .carousel {
   background: #FAFAFA;
   position: relative;
@@ -76,4 +75,6 @@
 .static-banner-design {
   left: 10px;
   top: 10px;
+  text-transform: lowercase;
+  font-family: 'Source Sans Pro', sans-serif;
 }
